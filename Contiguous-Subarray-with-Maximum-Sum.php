@@ -1,6 +1,6 @@
 <?php
 
-//Hi, here's your problem today. This problem was recently asked by Twitter:
+//Hi, here's your problem today. This problem was recently asked by Twitter ( Also Amazon):
 //You are given an array of integers. Find the maximum sum of all possible contiguous subarrays of the array.
 //Example:
 //[34, -50, 42, 14, -5, 86]
