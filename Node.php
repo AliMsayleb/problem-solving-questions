@@ -21,7 +21,7 @@ class Node
         return $this->nextNode;
     }
 
-    public function setNextNode(Node $node): self
+    public function setNextNode(?Node $node): self
     {
         $this->nextNode = $node;
 
