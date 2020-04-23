@@ -50,6 +50,8 @@ class BinaryTreeNode
     public function setValue($value): BinaryTreeNode
     {
         $this->value = $value;
+
+        return $this;
     }
 
     public function getRightNode(): ?BinaryTreeNode
