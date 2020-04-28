@@ -98,3 +98,14 @@ function printTree(?BinaryTreeNode $head)
     echo $head->getValue() . " ";
     printTree($head->getRightNode());
 }
+
+function printPreOrder(?BinaryTreeNode $head)
+{
+    if ($head == null) {
+        return;
+    }
+
+    echo $head->getValue() . " ";
+    printPreOrder($head->getLeftNode());
+    printPreOrder($head->getRightNode());
+}
