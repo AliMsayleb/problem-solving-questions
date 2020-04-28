@@ -87,3 +87,14 @@ function printList(Node $list)
         $currentNode = $currentNode->getNextNode();
     }
 }
+
+function printTree(?BinaryTreeNode $head)
+{
+    if ($head == null) {
+        return;
+    }
+
+    printTree($head->getLeftNode());
+    echo $head->getValue() . " ";
+    printTree($head->getRightNode());
+}
